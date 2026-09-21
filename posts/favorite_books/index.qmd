@@ -1,5 +1,5 @@
 ---
-title: "本を読むということ / L'arte di leggere" 
+title: "読むということ / L'arte di leggere" 
 author: "ruca"
 date: "2026-09-06"                                   
 categories: [Letture, Saggio, Filosofia, 日本文学]
