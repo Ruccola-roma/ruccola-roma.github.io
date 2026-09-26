@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="ruca">
+<meta name="dcterms.date" content="2026-09-26">
 
-<title>DIARIO / 記事一覧</title>
+<title>あてなるもの / Atenarumono</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b370c83794f8cca305dba946e5924eaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b370c83794f8cca305dba946e5924eaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,68 +75,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -152,15 +94,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">HOME</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">DIARIO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">PROFILO</span></a>
   </li>  
 </ul>
@@ -171,11 +113,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-lingua">    
         <li>
-    <a class="dropdown-item" href="./index_it.html">
+    <a class="dropdown-item" href="../../index_it.html">
  <span class="dropdown-text">🇮🇹 Italiano</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">🇯🇵 日本語</span></a>
   </li>  
     </ul>
@@ -188,25 +130,40 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q29mZmVl">Coffee <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rmlsb3NvZmlh">Filosofia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGV0dHVyZQ==">Letture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhZHJv">Quadro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2FnZ2lv">Saggio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2FnZ2lvJTJDJTIwQXJ0ZQ==">Saggio, Arte <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Vml2ZXJl">Vivere <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTk3JUE1JUU2JTlDJUFDJUU2JTk2JTg3JUU1JUFEJUE2">日本文学 <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DIARIO / 記事一覧</h1>
-</div>
+<h1 class="title">あてなるもの / Atenarumono</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Saggio, Arte</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>ruca </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 26, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -216,148 +173,30 @@ window.Quarto = {
 </header>
 
 
+<style>
+
+
+h1, h2, h3 {
+  color: #2c302e !important;
+}
+
+body {
+  background-image: none !important;
+  background-color: #fafafa !important;
+}
+
+</style>
+<p><br></p>
+<p>空気が入って、くるくるしてもシルクのようなミルク。</p>
+<p><br> 朝目が覚めて、からだがかるくかんじるとき。</p>
+<p><br> やわらかく差し込み、手の甲を染める日差し。</p>
+<p><br> からだをほぐされながら、どうもねむくてまどろむとき。</p>
+<p><br> 弾ける橙色のスピリッツを飲んで、なつの火照る頬にずっと夜風がさしこみながら、ほろ酔いでほおが突っ張るほど上がる口角。</p>
+<p><br> 白い扇が重なって、並んで、まんまるな絵がラテボウルに浮かんだ時。</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U2FnZ2lvJTJDJTIwQXJ0ZQ==" data-listing-date-sort="1790373600000" data-listing-file-modified-sort="1790445448412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<div class="thumbnail"><a href="./posts/favorite_books/0926_atenarumono.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/favorite_books/0926_atenarumono.html" class="no-external">あてなるもの / Atenarumono</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2FnZ2lvJTJDJTIwQXJ0ZQ=='); return false;">Saggio, Arte</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/favorite_books/0926_atenarumono.html" class="no-external">
-<br>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/favorite_books/0926_atenarumono.html" class="no-external">
-<div class="listing-date">
-Sep 26, 2026
-</div>
-<div class="listing-author">
-ruca
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="UXVhZHJvJTJDVml2ZXJl" data-listing-date-sort="1789941600000" data-listing-file-modified-sort="1789973859454" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
-<div class="thumbnail"><a href="./posts/favorite_books/quadro0803.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/favorite_books/quadro0803.html" class="no-external">夢の絵 / Il quadro del sogno</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhZHJv'); return false;">Quadro</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Vml2ZXJl'); return false;">Vivere</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/favorite_books/quadro0803.html" class="no-external">
-<br>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/favorite_books/quadro0803.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2026
-</div>
-<div class="listing-author">
-ruca
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q29mZmVlJTJDU2FnZ2lvJTJDVml2ZXJl" data-listing-date-sort="1789336800000" data-listing-file-modified-sort="1789642501020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail"><a href="./posts/favorite_books/coffee0914.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/favorite_books/coffee0914.html" class="no-external">コーヒーの紡ぐ思い出 / I fili del caffè</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29mZmVl'); return false;">Coffee</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2FnZ2lv'); return false;">Saggio</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Vml2ZXJl'); return false;">Vivere</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/favorite_books/coffee0914.html" class="no-external">
-
-
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/favorite_books/coffee0914.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2026
-</div>
-<div class="listing-author">
-ruca
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TGV0dHVyZSUyQ1NhZ2dpbyUyQ0ZpbG9zb2ZpYSUyQyVFNiU5NyVBNSVFNiU5QyVBQyVFNiU5NiU4NyVFNSVBRCVBNg==" data-listing-date-sort="1788645600000" data-listing-file-modified-sort="1789973890057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<div class="thumbnail"><a href="./posts/favorite_books/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/favorite_books/index.html" class="no-external">読むということ / L’arte di leggere</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGV0dHVyZQ=='); return false;">Letture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2FnZ2lv'); return false;">Saggio</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Rmlsb3NvZmlh'); return false;">Filosofia</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUU2JTk3JUE1JUU2JTlDJUFDJUU2JTk2JTg3JUU1JUFEJUE2'); return false;">日本文学</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/favorite_books/index.html" class="no-external">
-<br>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/favorite_books/index.html" class="no-external">
-<div class="listing-date">
-Sep 6, 2026
-</div>
-<div class="listing-author">
-ruca
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
