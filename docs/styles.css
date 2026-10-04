@@ -199,3 +199,8 @@ body.page-about {
   color: #5c4033 !important;              /* 珈琲のような深いブラウンに変化 */
   opacity: 0.8;
 }
+
+
+.essay-text {
+  white-space: pre-wrap;
+}
