@@ -2,7 +2,7 @@
 title: "夢の絵 / Il quadro del sogno"     
 author: "ruca"
 date: "2026-09-21"                                
-categories: [Quadro, Vivere]
+categories: [Saggio]
 ---
 
 ```{=html}
@@ -44,7 +44,7 @@ Quando ho avuto l’occasione di rivedere i miei prof del Giappone, nonostante t
 
 <br>
 
-C’è sempre stato qualcosa da affrontare, a cui pensare, a cui dedicare tutto il mio tempo e il mio cuore. 
+C’è sempre stato qualcosa da affrontare, a cui pensare, a cui dedicare tutto il mio tempo e il mio cuore.
 
 Ma non ho mai smesso di lasciarmi affascinare dalle cose che mi attirano.
 
@@ -52,11 +52,11 @@ Ma non ho mai smesso di lasciarmi affascinare dalle cose che mi attirano.
 
 “Non esci mai, ti fa male.”
 
-E lo so, lo so bene. 
+E lo so, lo so bene.
 
 Ma trovare un equilibrio, bilanciare le proprie paure e le proprie emozioni, non è semplice come dicono.
 
-So bene che se non parlo con qualcuno, se non mi sfogo, le cose possono andare peggio. 
+So bene che se non parlo con qualcuno, se non mi sfogo, le cose possono andare peggio.
 
 Eppure, la cosa più importante è capire cosa dovrei fare, come sta il mio cuore in questo momento, e di cosa ha davvero bisogno.
 
@@ -64,7 +64,7 @@ Eppure, la cosa più importante è capire cosa dovrei fare, come sta il mio cuor
 
 L'ho rivisto finalmente.
 
-Possano le ali che coprono inghiottirla tutta. 
+Possano le ali che coprono inghiottirla tutta.
 
 Dopo tantissimo tempo, sono felice di aver vissuto una bellissima giornata, dopo essermi data coraggio alla fine dell’estate.
 

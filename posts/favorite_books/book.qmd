@@ -2,7 +2,7 @@
 title: "読むということ / L'arte di leggere" 
 author: "ruca"
 date: "2026-09-06"                                   
-categories: [Letture, Saggio, Filosofia]
+categories: [Saggio]
 ---
 
 ```{=html}

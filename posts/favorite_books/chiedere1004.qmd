@@ -2,7 +2,7 @@
 title: "尋ねられたこと / Sentirsi chiedere"     
 author: "ruca"
 date: "2026-10-04"                                   
-categories: [Saggio, Vivre]
+categories: [Aneddoto]
 ---
 
 ```{=html}
@@ -19,11 +19,7 @@ body {
 
 </style>
 ```
-
-
-
 <br>
-
 
 いつも通り自習室にいた。
 
@@ -55,12 +51,11 @@ body {
 
 どういうこと！私は声を抑えながら笑う。
 
-
 「いや、なんというか、視線や頬杖の感じ、そんな雰囲気がして。」
 
 <br>
 
-<br> 
+<br>
 
 いつからわたしのことを知ってるんだ！と思いつつ、
 
