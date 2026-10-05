@@ -1,5 +1,5 @@
 ---
-title: "DIARIO / 記事一覧"
+title: "日記一覧 / DIARIO"
 listing:
   contents: posts
   sort: "date desc"
