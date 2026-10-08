@@ -5,10 +5,11 @@ title-block-banner-color: white
 body-classes: "page-home"
 ---
 
+::: {.hero-text style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);"}
 Dal Giappone all'Italia
 
-Parole, caffè e la luce di Roma.
+Parole, caffè e la luce e l'ombra di Roma
 
-Frammenti quotidiani e memorie da una piccola stanza.
-
+Frammenti quotidiani e memorie da una piccola stanza
+:::
 ------------------------------------------------------------------------

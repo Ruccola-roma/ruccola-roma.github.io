@@ -4,6 +4,7 @@ title-block-banner: "#243342"
 body-classes: "page-about"
 ---
 
+::: {.hero-text style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);"}
 Stai in salute?
 
 Eccomi sono ruca.
@@ -23,3 +24,4 @@ Preparare il caffè al mattino, tessere parole. 
 Ci sono senz'altro cose che, a mia insaputa, mi salvano. 
 
 Dimenticare un po', ricordare un po', per cercare di restare il più possibile serena.
+:::

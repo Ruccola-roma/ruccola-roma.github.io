@@ -5,6 +5,7 @@ body-classes: "page-about"
 toc: false
 ---
 
+::: {.hero-text style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);"}
 <br>
 
 すこやかですか？流霞です。
@@ -28,5 +29,6 @@ toc: false
 <br>
 
 <br>
+:::
 
 <a href="about_it.html">🇮🇹 Versione italiana</a>
