@@ -176,7 +176,7 @@ body.page-about article {
 html:has(body.page-about),
 body.page-about {
   background-image: 
-    linear-gradient(rgba(250, 250, 250, 0.82), rgba(250, 250, 250, 0.82)),
+    linear-gradient(rgba(250, 250, 250, 0.50), rgba(250, 250, 250, 0.82)),
     url('profilo.JPG') !important;
   background-size: cover !important;
   background-position: center top !important;
