@@ -1,0 +1,54 @@
+---
+title: "海を握った至純の国 / La serenissima"     
+author: "ruca"
+date: "2026-10-27"                                   
+categories: [Saggio]
+---
+
+```{=html}
+<style>
+
+
+h1, h2, h3 {
+  color: #2c302e !important;
+}
+
+body {
+  background-image: none !important;
+  background-color: #fafafa !important;
+}
+
+</style>
+```
+
+<br>
+
+3年？4年ぶりのベネチア。
+
+そこら中にある、羽の生えたライオン。
+
+ああ、こうだった。
+
+<br>
+
+迷路のような街。
+
+サン・マルコ広場に向かう道は人が多い。
+
+ひとつ、ふたつと橋を渡ると人が少なくなる。
+
+<br>
+
+光に照らされ、キラキラ光る水面。
+
+風がなく、カラフルな建物が鏡のように映り込む。
+
+<br>
+
+まだあの時は、よくわかっていなかったのだ。
+
+海を手にしていた共和国の凪は、見れば見るほど、昔見た時よりずっと綺麗だ。
+
+<br>
+
+<br>
