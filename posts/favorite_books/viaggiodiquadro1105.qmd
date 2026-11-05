@@ -1,5 +1,5 @@
 ---
-title: "絵の旅 / il viaggio di un quadro"     
+title: "絵の旅 / Il viaggio di un quadro"     
 author: "ruca"
 date: "2026-11-05"                                   
 categories: [Saggio]
